@@ -1,0 +1,16 @@
+/* いいね => 鬼がかってますね */
+.LikeButton > .p-button::after {
+  content: "鬼がかってますね";
+}
+.LikeButton > .p-button > span:not(.fa) {
+  display: none;
+}
+
+/* ストック => 言質とりました */
+.it-Footer_stock > button::after {
+  content: "言質とりました";
+  font-size: 1.4rem;
+}
+.it-Footer_stock > button > .it-Footer_stockLabel {
+  display: none;
+}

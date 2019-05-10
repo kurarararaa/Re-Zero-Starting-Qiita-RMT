@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "鬼 Re:Qiitaのいいねを鬼がかってますね",
+  "description": "Qiitaの「いいね」を「鬼がかってますね」に変えるChrome拡張………………デスッ！！",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": [ "https://qiita.com/*" ],
+      "css": [ "css/rmt.css" ],
+      "js": ["js/rmt.js"]
+    }
+  ]
+}
